@@ -18,8 +18,6 @@ int main() {
   std::cout << instance << std::endl;
   std::cout << instance2 << std::endl;
 
-  delete instance;
-
   return 0;
 }
 
