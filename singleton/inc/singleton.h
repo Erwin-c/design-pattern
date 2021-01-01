@@ -10,14 +10,15 @@
 
 #include <iostream>
 
+// Thread insecure and memory leak
 class Singleton {
  private:
   static Singleton* m_instance_ptr;
 
-  Singleton() { std::cout << "Singleton::Singleton() method." << std::endl; };
+  Singleton();
 
  public:
-  ~Singleton() { std::cout << "Singleton::~Singleton() method." << std::endl; };
+  ~Singleton();
 
   static Singleton* getInstance();
 };
