@@ -5,8 +5,8 @@
  *      Author: Erwin
  */
 
-#ifndef ABSTRACT_FACTORY_INC_MAP_SITE_H_
-#define ABSTRACT_FACTORY_INC_MAP_SITE_H_
+#ifndef ABSTRACT_FACTORY_MAP_SITE_H_
+#define ABSTRACT_FACTORY_MAP_SITE_H_
 
 class MapSite {
  public:
@@ -17,4 +17,4 @@ class MapSite {
   virtual void Enter() = 0;
 };
 
-#endif  // ABSTRACT_FACTORY_INC_MAP_SITE_H_
+#endif  // ABSTRACT_FACTORY_MAP_SITE_H_
