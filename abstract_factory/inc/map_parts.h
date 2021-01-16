@@ -5,8 +5,8 @@
  *      Author: Erwin
  */
 
-#ifndef ABSTRACT_FACTORY_INC_MAP_PARTS_H_
-#define ABSTRACT_FACTORY_INC_MAP_PARTS_H_
+#ifndef ABSTRACT_FACTORY_MAP_PARTS_H_
+#define ABSTRACT_FACTORY_MAP_PARTS_H_
 
 enum Direction {
   kNorth,
@@ -15,4 +15,4 @@ enum Direction {
   kWest,
 };
 
-#endif  // ABSTRACT_FACTORY_INC_MAP_PARTS_H_
+#endif  // ABSTRACT_FACTORY_MAP_PARTS_H_

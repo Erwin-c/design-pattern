@@ -5,8 +5,8 @@
  *      Author: Erwin
  */
 
-#ifndef ABSTRACT_FACTORY_INC_WALL_H_
-#define ABSTRACT_FACTORY_INC_WALL_H_
+#ifndef ABSTRACT_FACTORY_WALL_H_
+#define ABSTRACT_FACTORY_WALL_H_
 
 #include "map_site.h"
 
@@ -20,4 +20,4 @@ class Wall : public MapSite {
   virtual void Enter();
 };
 
-#endif  // ABSTRACT_FACTORY_INC_WALL_H_
+#endif  // ABSTRACT_FACTORY_WALL_H_
