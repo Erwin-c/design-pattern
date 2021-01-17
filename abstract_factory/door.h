@@ -17,6 +17,8 @@ class Door : public MapSite {
   Door(Room* r1, Room* r2);
   Door(const Door& other);
 
+  virtual ~Door();
+
   virtual Door* Clone() const;
   virtual void Initialize(Room* r1, Room* r2);
 
