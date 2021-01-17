@@ -28,4 +28,4 @@ class Room : public MapSite {
   int room_number_;
 };
 
-#endif /* ABSTRACT_FACTORY_ROOM_H_ */
+#endif  // ABSTRACT_FACTORY_ROOM_H_
