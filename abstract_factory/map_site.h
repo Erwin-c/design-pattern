@@ -11,7 +11,6 @@
 class MapSite {
  public:
   MapSite();
-
   virtual ~MapSite();
 
   virtual void Enter() = 0;
