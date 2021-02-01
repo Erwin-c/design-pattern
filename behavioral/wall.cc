@@ -5,7 +5,7 @@
  *      Author: Erwin
  */
 
-#include "wall.h"
+#include "behavioral/wall.h"
 
 #include <iostream>
 

@@ -5,7 +5,7 @@
  *      Author: Erwin
  */
 
-#include "door.h"
+#include "behavioral/door.h"
 
 #include <iostream>
 
