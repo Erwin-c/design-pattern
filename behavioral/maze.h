@@ -5,12 +5,12 @@
  *      Author: Erwin
  */
 
-#ifndef ABSTRACT_FACTORY_MAZE_H_
-#define ABSTRACT_FACTORY_MAZE_H_
+#ifndef BEHAVIORAL_MAZE_H_
+#define BEHAVIORAL_MAZE_H_
 
 #include <vector>
 
-#include "room.h"
+#include "behavioral/room.h"
 
 class Maze {
   public:
@@ -26,4 +26,4 @@ class Maze {
   std::vector<Room*>* m_room_vec_;
 };
 
-#endif  // ABSTRACT_FACTORY_MAZE_H_
+#endif  // BEHAVIORAL_MAZE_H_
