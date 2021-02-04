@@ -10,7 +10,7 @@
 #include <iostream>
 
 Room::Room(int n) : room_number_(n) {
-  std::cout << "Room::Room(int n)." << std::endl;
+  std::cout << "Room::Room(int n)" << std::endl;
 }
 
 Room::~Room() { std::cout << "Room::~Room()." << std::endl; }
@@ -23,4 +23,4 @@ void Room::set_side(Direction direction, MapSite* map_site) {
   sides_[direction] = map_site;
 }
 
-void Room::Enter() { std::cout << "Room::Enter()." << std::endl; }
+void Room::Enter() { std::cout << "Room::Enter()" << std::endl; }

@@ -9,6 +9,6 @@
 
 #include <iostream>
 
-MapSite::MapSite() { std::cout << "MapSite::MapSite()." << std::endl; }
+MapSite::MapSite() { std::cout << "MapSite::MapSite()" << std::endl; }
 
-MapSite::~MapSite() { std::cout << "MapSite::~MapSite()." << std::endl; }
+MapSite::~MapSite() { std::cout << "MapSite::~MapSite()" << std::endl; }

@@ -11,9 +11,9 @@
 
 #include "behavioral/maze.h"
 
-MazeGame::MazeGame() { std::cout << "MazeGame::MazeGame()." << std::endl; }
+MazeGame::MazeGame() { std::cout << "MazeGame::MazeGame()" << std::endl; }
 
-MazeGame::~MazeGame() { std::cout << "MazeGame::~MazeGame()." << std::endl; }
+MazeGame::~MazeGame() { std::cout << "MazeGame::~MazeGame()" << std::endl; }
 
 Maze* MazeGame::CreateMaze() {
   std::cout << "MazeGame::CreateMaze()" << std::endl;
