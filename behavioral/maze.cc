@@ -11,10 +11,10 @@
 #include <vector>
 
 Maze::Maze() : m_room_vec_(new std::vector<Room*>) {
-  std::cout << "Maze::Maze()." << std::endl;
+  std::cout << "Maze::Maze()" << std::endl;
 }
 
-Maze::~Maze() { std::cout << "Maze::~Maze()." << std::endl; }
+Maze::~Maze() { std::cout << "Maze::~Maze()" << std::endl; }
 
 Maze* Maze::Clone() const { return new Maze(*this); }
 

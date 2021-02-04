@@ -9,10 +9,10 @@
 
 #include <iostream>
 
-Wall::Wall() { std::cout << "Wall::Wall()." << std::endl; }
+Wall::Wall() { std::cout << "Wall::Wall()" << std::endl; }
 
-Wall::~Wall() { std::cout << "Wall::~Wall()." << std::endl; }
+Wall::~Wall() { std::cout << "Wall::~Wall()" << std::endl; }
 
 Wall* Wall::Clone() const { return new Wall(*this); }
 
-void Wall::Enter() { std::cout << "Wall::Enter()." << std::endl; }
+void Wall::Enter() { std::cout << "Wall::Enter()" << std::endl; }
