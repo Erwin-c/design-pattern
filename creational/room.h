@@ -5,11 +5,11 @@
  *      Author: Erwin
  */
 
-#ifndef BEHAVIORAL_ROOM_H_
-#define BEHAVIORAL_ROOM_H_
+#ifndef CREATIONAL_ROOM_H_
+#define CREATIONAL_ROOM_H_
 
-#include "behavioral/map_parts.h"
-#include "behavioral/map_site.h"
+#include "creational/map_parts.h"
+#include "creational/map_site.h"
 
 class Room : public MapSite {
  public:
@@ -28,4 +28,4 @@ class Room : public MapSite {
   int room_number_;
 };
 
-#endif  // BEHAVIORAL_ROOM_H_
+#endif  // CREATIONAL_ROOM_H_

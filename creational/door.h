@@ -5,11 +5,11 @@
  *      Author: Erwin
  */
 
-#ifndef BEHAVIORAL_DOOR_H_
-#define BEHAVIORAL_DOOR_H_
+#ifndef CREATIONAL_DOOR_H_
+#define CREATIONAL_DOOR_H_
 
-#include "behavioral/map_site.h"
-#include "behavioral/room.h"
+#include "creational/map_site.h"
+#include "creational/room.h"
 
 class Door : public MapSite {
  public:
@@ -30,4 +30,4 @@ class Door : public MapSite {
   Room* room2_;
 };
 
-#endif  // BEHAVIORAL_DOOR_H_
+#endif  // CREATIONAL_DOOR_H_

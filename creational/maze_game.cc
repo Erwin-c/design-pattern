@@ -5,11 +5,11 @@
  *      Author: Erwin
  */
 
-#include "behavioral/maze_game.h"
+#include "creational/maze_game.h"
 
 #include <iostream>
 
-#include "behavioral/maze.h"
+#include "creational/maze.h"
 
 MazeGame::MazeGame() { std::cout << "MazeGame::MazeGame()" << std::endl; }
 

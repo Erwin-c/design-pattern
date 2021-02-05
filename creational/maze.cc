@@ -5,7 +5,7 @@
  *      Author: Erwin
  */
 
-#include "behavioral/maze.h"
+#include "creational/maze.h"
 
 #include <iostream>
 #include <vector>

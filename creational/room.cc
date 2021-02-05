@@ -5,7 +5,7 @@
  *      Author: Erwin
  */
 
-#include "behavioral/room.h"
+#include "creational/room.h"
 
 #include <iostream>
 
