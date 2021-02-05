@@ -5,8 +5,8 @@
  *      Author: Erwin
  */
 
-#ifndef BEHAVIORAL_MAP_SITE_H_
-#define BEHAVIORAL_MAP_SITE_H_
+#ifndef CREATIONAL_MAP_SITE_H_
+#define CREATIONAL_MAP_SITE_H_
 
 class MapSite {
  public:
@@ -16,4 +16,4 @@ class MapSite {
   virtual void Enter() = 0;
 };
 
-#endif  // BEHAVIORAL_MAP_SITE_H_
+#endif  // CREATIONAL_MAP_SITE_H_

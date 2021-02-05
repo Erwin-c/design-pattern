@@ -5,7 +5,7 @@
  *      Author: Erwin
  */
 
-#include "behavioral/map_site.h"
+#include "creational/map_site.h"
 
 #include <iostream>
 

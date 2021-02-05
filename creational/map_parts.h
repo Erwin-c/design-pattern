@@ -5,8 +5,8 @@
  *      Author: Erwin
  */
 
-#ifndef BEHAVIORAL_MAP_PARTS_H_
-#define BEHAVIORAL_MAP_PARTS_H_
+#ifndef CREATIONAL_MAP_PARTS_H_
+#define CREATIONAL_MAP_PARTS_H_
 
 enum Direction {
   kNorth,
@@ -15,4 +15,4 @@ enum Direction {
   kWest,
 };
 
-#endif  // BEHAVIORAL_MAP_PARTS_H_
+#endif  // CREATIONAL_MAP_PARTS_H_

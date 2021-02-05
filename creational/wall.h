@@ -5,10 +5,10 @@
  *      Author: Erwin
  */
 
-#ifndef BEHAVIORAL_WALL_H_
-#define BEHAVIORAL_WALL_H_
+#ifndef CREATIONAL_WALL_H_
+#define CREATIONAL_WALL_H_
 
-#include "behavioral/map_site.h"
+#include "creational/map_site.h"
 
 class Wall : public MapSite {
  public:
@@ -20,4 +20,4 @@ class Wall : public MapSite {
   virtual void Enter();
 };
 
-#endif  // BEHAVIORAL_WALL_H_
+#endif  // CREATIONAL_WALL_H_
