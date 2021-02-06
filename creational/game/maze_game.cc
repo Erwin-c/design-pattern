@@ -5,7 +5,7 @@
  *      Author: Erwin
  */
 
-#include "creational/maze_game.h"
+#include "creational/game/maze_game.h"
 
 #include <iostream>
 

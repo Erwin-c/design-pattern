@@ -5,7 +5,7 @@
  *      Author: Erwin
  */
 
-#include "creational/wall.h"
+#include "creational/wall/wall.h"
 
 #include <iostream>
 

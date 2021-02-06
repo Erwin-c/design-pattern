@@ -10,7 +10,7 @@
 
 #include <vector>
 
-#include "creational/room.h"
+#include "creational/room/room.h"
 
 class Maze {
   public:

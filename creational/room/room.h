@@ -5,8 +5,8 @@
  *      Author: Erwin
  */
 
-#ifndef CREATIONAL_ROOM_H_
-#define CREATIONAL_ROOM_H_
+#ifndef CREATIONAL_ROOM_ROOM_H_
+#define CREATIONAL_ROOM_ROOM_H_
 
 #include "creational/map_parts.h"
 #include "creational/map_site.h"
@@ -28,4 +28,4 @@ class Room : public MapSite {
   int room_number_;
 };
 
-#endif  // CREATIONAL_ROOM_H_
+#endif  // CREATIONAL_ROOM_ROOM_H_
