@@ -5,8 +5,8 @@
  *      Author: Erwin
  */
 
-#ifndef CREATIONAL_WALL_H_
-#define CREATIONAL_WALL_H_
+#ifndef CREATIONAL_WALL_WALL_H_
+#define CREATIONAL_WALL_WALL_H_
 
 #include "creational/map_site.h"
 
@@ -20,4 +20,4 @@ class Wall : public MapSite {
   virtual void Enter();
 };
 
-#endif  // CREATIONAL_WALL_H_
+#endif  // CREATIONAL_WALL_WALL_H_

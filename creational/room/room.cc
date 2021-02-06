@@ -5,7 +5,7 @@
  *      Author: Erwin
  */
 
-#include "creational/room.h"
+#include "creational/room/room.h"
 
 #include <iostream>
 
