@@ -13,7 +13,7 @@
 #include "creational/room/room.h"
 
 class Maze {
-  public:
+ public:
   Maze();
   virtual ~Maze();
 
